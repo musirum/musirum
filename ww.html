@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>눈동자</title>
+    <link rel="shortcut icon" type="image/x-icon" href="asd.png">
+    <script>
+    function printName()  {
+    const name = document.getElementById('name').value;
+      location.href="https://hitomi.la/galleries/"+name+".html";
+  }
+    </script>
+  </head>
+  <body>
+    <h1 style="font-size:50px;">일단 만들어본 웹</h1>
+    <input id='name' placeholder="품번을 입력하세요." onchange='printName()'style="width:300px;height:40px;font-size:25px;"/>
+    <div id='result'></div>
+
+  </body>
+</html>
